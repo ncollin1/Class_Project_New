@@ -5,7 +5,6 @@ from tkinter import ttk
 
 def calculate(*args):
     try:
-        num=5
         value = float(feet.get())
         meters.set((.3048 * value * 10000.0 + .5)/10000.0)
     except ValueError:
